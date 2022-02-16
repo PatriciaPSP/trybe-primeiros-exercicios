@@ -1,0 +1,64 @@
+h1, header p{
+    text-align: center;
+  }
+  
+  .container {
+    border: 3px solid darkgreen;
+    box-sizing: border-box;
+    /* Adicionada largura máxima para melhor visualização dos resultados */
+    max-width: 1000px;
+    padding: 30px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .triangle {
+    display: inline-block;
+  }
+  
+  .line {
+    /* propriedade width removida para que ela acompanhe a largura do elemento pai */
+    /* width: 450px; */
+    height: 10px;
+  }
+  
+  .box {
+    width: 10px;
+    height: 10px;
+    background-color: darkgreen;
+    display: inline-block;
+    /* background: darkgreen; */
+  }
+  
+  /*
+    Foi necessário renomear a classe aqui, já que 'box-empty' não é mais passado como atributo no JavaScript.
+    E já que todos as box agora são de ambas as classes 'box' e 'empty', foi possível remover estilos redundantes de .empty
+  */
+  .empty {
+    /* width: 10px;
+    height: 10px; */
+    background-color: white;
+    /* display: inline-block; */
+  }
+  
+  .top {
+    border: 2px solid darkgreen;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+  }
+  
+  .bottom-buttons {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  #btn-save, #btn-load {
+    font-size: 20px;
+  }
